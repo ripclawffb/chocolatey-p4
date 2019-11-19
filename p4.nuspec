@@ -9,7 +9,7 @@
     <title>P4: Helix Command-Line Client</title>
     <authors>Perforce Software Inc.</authors>
     <projectUrl>https://www.perforce.com/products/helix-core-apps/command-line-client</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/p4v.png</iconUrl>-->
+    <iconUrl>https://cdn.jsdelivr.net/gh/ripclawffb/chocolatey-p4@master/p4.png</iconUrl>
     <copyright>Copyright © 2019 Perforce Software, Inc.</copyright>
     <licenseUrl>https://www.perforce.com/terms-use</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
