@@ -1,10 +1,7 @@
-﻿# P4V Chocolatey Package
+﻿# P4: Helix Command-Line Client Chocolatey Package
 
-Helix Visual Client from Perforce boosts productivity
+The P4 command-line client provides access to all Perforce features and functions as an interface for scripting and automated operations.
+    
+Customize automation for your development and administrative processes by embedding commands using Perl, Python, or any other scripting language. You can tailor operations for automating Continuous Integration/Continuous Development (CI/CD) to create your ideal workflow.
 
-Helix Visual Client (P4V) comes with Helix Core –– version control from Perforce. It allows developers to:
-
-* Easily customize their workspace.
-* Visualize the flow of change using Perforce Streams.
-* Initiate code reviews.
-* Submit files back into Helix Core.
+The Perforce P4 Command-Line Client uses the same commands and syntax on a wide variety of platforms. It automatically translates line ending conventions between operating systems.
