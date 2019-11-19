@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>p4</id>
+    <version>2019.1.20191118</version>
+    <packageSourceUrl>https://github.com/ripclawffb/chocolatey-p4</packageSourceUrl>
+    <owners>Asif Shaikh</owners>
+    <title>P4: Helix Command-Line Client</title>
+    <authors>Perforce Software Inc.</authors>
+    <projectUrl>https://www.perforce.com/products/helix-core-apps/command-line-client</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/p4v.png</iconUrl>-->
+    <copyright>Copyright © 2019 Perforce Software, Inc.</copyright>
+    <licenseUrl>https://www.perforce.com/terms-use</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://www.perforce.com/manuals/cmdref/Content/CmdRef/Home-cmdref.html</docsUrl>
+    <tags>p4 perforce helix command line client admin</tags>
+    <summary>Helix Core admins and advanced users use Perforce p4 (the command-line client) to gain instant access to operations and complete control over the system.</summary>
+    <description><![CDATA[The P4 command-line client provides access to all Perforce features and functions as an interface for scripting and automated operations.
+    
+Customize automation for your development and administrative processes by embedding commands using Perl, Python, or any other scripting language. You can tailor operations for automating Continuous Integration/Continuous Development (CI/CD) to create your ideal workflow.
+
+The Perforce P4 Command-Line Client uses the same commands and syntax on a wide variety of platforms. It automatically translates line ending conventions between operating systems.
+]]></description>
+    <releaseNotes>https://www.perforce.com/perforce/doc.current/user/relnotes.txt</releaseNotes>
+    </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
