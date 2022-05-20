@@ -1,5 +1,5 @@
 ﻿$packageName = 'p4'
-$version = 'r21.2'
+$version = 'r22.1'
 $baseurl = "https://cdist2.perforce.com/perforce/$version"
 $url32 = "$baseurl/bin.ntx86/helix-p4-x86.exe"
 $url64 = "$baseurl/bin.ntx64/helix-p4-x64.exe"
