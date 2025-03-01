@@ -1,10 +1,10 @@
 ﻿$packageName = 'p4'
-$version = 'r24.1'
+$version = 'r24.2'
 $baseurl = "https://filehost.perforce.com/perforce/$version"
 $url64 = "$baseurl/bin.ntx64/helix-p4-x64.exe"
 
 # Get latest value with ((Invoke-WebRequest "$baseurl/bin.ntx64/SHA256SUMS" -UseBasicParsing).RawContent.ToString().Split() | Select-String -Pattern 'helix-p4-x64.exe' -SimpleMatch -Context 1,0 ).ToString().Trim().Split()[0]
-$checksum64 = '3209bc8a771eaf4e41aecf9f6a61e38814a4906e645ae1928409ca98db07d51e'
+$checksum64 = '8dab8ef1e569117570ff8970db5759f5c74eaea558eee76d62d575fbd58aed22'
 
 $packageArgs = @{
   packageName    = $packageName
